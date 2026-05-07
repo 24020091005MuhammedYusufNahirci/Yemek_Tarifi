@@ -8,8 +8,8 @@ Bu depo, **Veri Tabanı Yönetim Sistemleri (VTYS)** dersi bitirme projesi kapsa
 
 Bu repository içerisinde aynı işlevselliğe sahip 3 farklı yazılım mimarisi bulunmaktadır:
 
-| Proje Klasörü | Kullanılan Teknoloji | Veritabanı | Durum |
-| :--- | :--- | :--- | :--- |
+| Proje Klasörü | Kullanılan Teknoloji | Veritabanı 
+| :--- | :--- | :--- | 
 | [**yemek_projesi_asp**](./yemek_projesi_asp) | ASP.NET Core | PostgreSQL 
 | [**yemek_projesi_jsp**](./yemek_projesi_jsp) | Java Server Pages (JSP) | PostgreSQL 
 | [**yemek_projesi_php**](./yemek_projesi_php) | PHP (Native) | PostgreSQL 
