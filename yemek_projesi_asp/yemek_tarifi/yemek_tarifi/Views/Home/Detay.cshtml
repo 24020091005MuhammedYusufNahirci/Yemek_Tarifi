@@ -1,0 +1,52 @@
+﻿@model yemek_tarifi.Models.Yemek
+
+@{
+    ViewData["Title"] = Model.YemekAdi + " Tarifi";
+}
+
+<div class="row mt-4 mb-5">
+    <div class="col-md-8">
+        <div class="card shadow-sm border-0 mb-4">
+            <img src="@Model.FotografUrl" class="card-img-top" alt="@Model.YemekAdi" style="max-height: 400px; object-fit: cover;">
+            <div class="card-body">
+                <h2 class="card-title text-success fw-bold">@Model.YemekAdi</h2>
+                <hr />
+                <h5 class="fw-bold">Hazırlanışı:</h5>
+                <p class="card-text" style="white-space: pre-line; font-size: 1.1rem;">
+                    @Model.TarifDetay
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 mb-3">
+            <div class="card-header bg-warning text-dark fw-bold">
+                🛒 Gerekli Malzemeler
+            </div>
+            <ul class="list-group list-group-flush">
+                @if (ViewBag.Malzemeler != null)
+                {
+                    foreach (var mlz in ViewBag.Malzemeler)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            @mlz.Ad
+                            <span class="badge bg-secondary rounded-pill">@mlz.Miktar</span>
+                        </li>
+                    }
+                }
+                else
+                {
+                    <li class="list-group-item text-muted text-center py-3">
+                        <small>Bu tarif için henüz malzeme eklenmemiş.</small>
+                    </li>
+                }
+            </ul>
+        </div>
+        
+        <div class="d-grid gap-2">
+            <a href="/Yonetim/Duzenle/@Model.Id" class="btn btn-primary fw-bold shadow-sm">✏️ Tarifi Düzenle</a>
+            <a href="/" class="btn btn-light border text-muted fw-bold">⬅ Listeye Geri Dön</a>
+        </div>
+    </div>
+</div>

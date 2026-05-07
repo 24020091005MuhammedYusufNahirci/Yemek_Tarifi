@@ -1,0 +1,95 @@
+﻿@model yemek_tarifi.Models.Yemek
+
+@{
+    ViewData["Title"] = "Yeni Tarif Ekle";
+}
+
+<style>
+    .custom-card {
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    }
+
+    .custom-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 20px 20px 0 0 !important;
+    }
+
+    .material-box {
+        border: 1px solid #edf2f9;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+    }
+
+        .material-box:hover {
+            border-color: #764ba2;
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.1);
+            transform: translateY(-2px);
+        }
+
+    .floating-custom:focus {
+        border-color: #764ba2;
+        box-shadow: 0 0 0 0.25rem rgba(118, 75, 162, 0.25);
+    }
+</style>
+
+<div class="row mt-4 mb-5">
+    <div class="col-md-9 mx-auto">
+        <div class="card custom-card">
+            <div class="card-header custom-header p-4">
+                <h4 class="mb-0 fw-bold"><i class="fs-4 me-2"></i> Yeni Özel Tarif Ekle</h4>
+            </div>
+            <div class="card-body p-4 p-md-5">
+                <form asp-controller="Yonetim" asp-action="Yeni" method="POST">
+                    
+                    <div class="form-floating mb-4">
+                        <input asp-for="YemekAdi" class="form-control floating-custom rounded-4" id="YemekAdi" placeholder="Yemek Adi" required>
+                        <label for="YemekAdi" class="text-muted">🍽️ Yemeğin Adı</label>
+                    </div>
+                    
+                    <div class="form-floating mb-4">
+                        <input asp-for="FotografUrl" class="form-control floating-custom rounded-4" id="FotografUrl" placeholder="Fotograf URL">
+                        <label for="FotografUrl" class="text-muted">📸 Fotoğraf URL'si</label>
+                    </div>
+
+                    <div class="form-floating mb-5">
+                        <textarea asp-for="TarifDetay" class="form-control floating-custom rounded-4" id="TarifDetay" placeholder="Tarif Detayi" style="height: 130px"></textarea>
+                        <label for="TarifDetay" class="text-muted">📝 Tarifin Yapılışı</label>
+                    </div>
+
+                    <h6 class="fw-bold mb-3 text-secondary border-bottom pb-2">Kullanılacak Malzemeler</h6>
+                    
+                    <div class="row g-3 mb-4" style="max-height: 280px; overflow-y: auto; overflow-x: hidden;">
+                        @if (ViewBag.Malzemeler != null)
+                        {
+                            foreach (var mlz in ViewBag.Malzemeler)
+                            {
+                                <div class="col-md-6">
+                                    <div class="material-box p-3 d-flex align-items-center bg-white">
+                                        <div class="form-check form-switch me-3 ms-1 mb-0">
+                                            <input class="form-check-input fs-5" type="checkbox" name="secilenMalzemeler" value="@mlz.Id" id="mlz_@mlz.Id" style="cursor: pointer;">
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <label class="form-check-label fw-semibold d-block text-dark" for="mlz_@mlz.Id" style="cursor: pointer;">
+                                                @mlz.MalzemeAdi
+                                            </label>
+                                            <input type="text" name="miktarlar[@mlz.Id]" class="form-control form-control-sm mt-2 border-0 bg-light rounded-3 px-3" placeholder="Miktar (Örn: 2 Adet)">
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+
+                    <div class="d-grid gap-3 d-md-flex justify-content-md-end mt-5 pt-3 border-top">
+                        <a href="/" class="btn btn-light btn-lg rounded-pill px-4 text-muted fw-bold">İptal</a>
+                        <button type="submit" class="btn btn-lg rounded-pill px-5 text-white fw-bold shadow-sm" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"> Tarifi Kaydet</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

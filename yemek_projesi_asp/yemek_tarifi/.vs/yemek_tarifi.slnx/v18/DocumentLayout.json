@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\controllers\\yonetimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|solutionrelative:yemek_tarifi\\controllers\\yonetimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\views\\home\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|solutionrelative:yemek_tarifi\\views\\home\\detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\views\\yonetim\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|solutionrelative:yemek_tarifi\\views\\yonetim\\duzenle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\views\\yonetim\\yeni.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|solutionrelative:yemek_tarifi\\views\\yonetim\\yeni.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|solutionrelative:yemek_tarifi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|solutionrelative:yemek_tarifi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|c:\\users\\yossu\\onedrive\\masa\u00FCst\u00FC\\ders\\veri taban\u0131 y\u00F6netim sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3D05C2B-A767-DE67-156C-4F445648A238}|yemek_tarifi\\yemek_tarifi.csproj|solutionrelative:yemek_tarifi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Duzenle.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Yonetim\\Duzenle.cshtml",
+              "RelativeDocumentMoniker": "yemek_tarifi\\Views\\Yonetim\\Duzenle.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Yonetim\\Duzenle.cshtml",
+              "RelativeToolTip": "yemek_tarifi\\Views\\Yonetim\\Duzenle.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwEIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T17:19:25.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YonetimController.cs",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Controllers\\YonetimController.cs",
+              "RelativeDocumentMoniker": "yemek_tarifi\\Controllers\\YonetimController.cs",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Controllers\\YonetimController.cs",
+              "RelativeToolTip": "yemek_tarifi\\Controllers\\YonetimController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T17:17:00.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detay.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Home\\Detay.cshtml",
+              "RelativeDocumentMoniker": "yemek_tarifi\\Views\\Home\\Detay.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Home\\Detay.cshtml",
+              "RelativeToolTip": "yemek_tarifi\\Views\\Home\\Detay.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T17:00:04.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "yemek_tarifi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "yemek_tarifi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T16:59:09.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Yeni.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Yonetim\\Yeni.cshtml",
+              "RelativeDocumentMoniker": "yemek_tarifi\\Views\\Yonetim\\Yeni.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Yonetim\\Yeni.cshtml",
+              "RelativeToolTip": "yemek_tarifi\\Views\\Yonetim\\Yeni.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T16:57:29.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "yemek_tarifi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "yemek_tarifi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAqwCEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T16:57:06.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "yemek_tarifi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yossu\\OneDrive\\Masa\u00FCst\u00FC\\Ders\\Veri Taban\u0131 Y\u00F6netim Sistemleri\\veritaban\u0131 kodlar\u0131\\yemek_projesi_asp\\yemek_tarifi\\yemek_tarifi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "yemek_tarifi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-07T15:22:56.765Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

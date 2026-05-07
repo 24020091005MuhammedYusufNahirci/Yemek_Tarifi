@@ -1,0 +1,67 @@
+﻿@model yemek_tarifi.Models.Yemek
+
+@{
+    ViewData["Title"] = "Tarifi Düzenle";
+    var seciliMalzemeler = ViewBag.SeciliMalzemeler as List<yemek_tarifi.Models.YemekMalzeme>;
+}
+
+<style>
+    .custom-card { border-radius: 20px; border: none; box-shadow: 0 15px 35px rgba(0,0,0,0.08); }
+    .custom-header { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; border-radius: 20px 20px 0 0 !important; }
+    .material-box { border: 1px solid #edf2f9; border-radius: 12px; transition: all 0.3s ease; }
+    .floating-custom:focus { border-color: #4facfe; box-shadow: 0 0 0 0.25rem rgba(79, 172, 254, 0.25); }
+</style>
+
+<div class="row mt-4 mb-5">
+    <div class="col-md-9 mx-auto">
+        <div class="card custom-card">
+            <div class="card-header custom-header p-4 text-center">
+                <h4 class="mb-0 fw-bold">🛠️ Tarifi Güncelle: @Model.YemekAdi</h4>
+            </div>
+            <div class="card-body p-4 p-md-5">
+                <form asp-controller="Yonetim" asp-action="Duzenle" method="POST">
+                    <input type="hidden" asp-for="Id" /> <div class="form-floating mb-4">
+                        <input asp-for="YemekAdi" class="form-control floating-custom rounded-4" placeholder="Yemek Adi" required>
+                        <label>🍽️ Yemeğin Adı</label>
+                    </div>
+                    
+                    <div class="form-floating mb-4">
+                        <input asp-for="FotografUrl" class="form-control floating-custom rounded-4" placeholder="Fotograf URL">
+                        <label>📸 Fotoğraf URL'si</label>
+                    </div>
+
+                    <div class="form-floating mb-5">
+                        <textarea asp-for="TarifDetay" class="form-control floating-custom rounded-4" style="height: 150px"></textarea>
+                        <label>📝 Tarifin Yapılışı</label>
+                    </div>
+
+                    <h6 class="fw-bold mb-3 text-secondary border-bottom pb-2">Malzemeleri Güncelle</h6>
+                    <div class="row g-3 mb-4" style="max-height: 300px; overflow-y: auto;">
+                        @foreach(var mlz in ViewBag.Malzemeler)
+                        {
+                            var seciliMi = seciliMalzemeler?.FirstOrDefault(x => x.MalzemeId == mlz.Id);
+                            <div class="col-md-6">
+                                <div class="material-box p-3 d-flex align-items-center @(seciliMi != null ? "bg-light border-primary" : "bg-white")">
+                                    <div class="form-check form-switch me-3">
+                                        <input class="form-check-input" type="checkbox" name="secilenMalzemeler" value="@mlz.Id" 
+                                               id="mlz_@mlz.Id" @(seciliMi != null ? "checked" : "")>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <label class="fw-semibold d-block mb-1" for="mlz_@mlz.Id">@mlz.MalzemeAdi</label>
+                                        <input type="text" name="miktarlar[@mlz.Id]" class="form-control form-control-sm rounded-3" 
+                                               placeholder="Miktar" value="@(seciliMi?.Miktar)">
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="d-grid gap-3 d-md-flex justify-content-md-end mt-5 pt-3 border-top">
+                        <a href="/Home/Detay/@Model.Id" class="btn btn-light btn-lg rounded-pill px-4">Vazgeç</a>
+                        <button type="submit" class="btn btn-lg rounded-pill px-5 text-white fw-bold" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">Değişiklikleri Kaydet</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
