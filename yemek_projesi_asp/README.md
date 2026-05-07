@@ -19,9 +19,9 @@ Sistem, verilerin bütünlüğünü korumak adına ilişkisel bir model kullanma
 
 | Veritabanı Tablosu | Ekran Görüntüsü |
 | :--- | :--- |
-| **Yemekler Tablosu:** Ana tarif bilgilerini (ad, tarif, foto) tutar. | ![Yemekler Tablosu](images/yemekler.png) |
-| **Malzemeler Tablosu:** Sistemde tanımlı tüm malzemeleri tutar. | ![Malzemeler Tablosu](images/malzemeler.png) |
-| **Yemek-Malzeme (Ara Tablo):** Hangi yemekte hangi malzemenin ne kadar olduğunu tutar. | ![Ara Tablo](images/aratablo.png) |
+| **Yemekler Tablosu:** Ana tarif bilgilerini (ad, tarif, foto) tutar. | ![Yemekler Tablosu](image/yemekler.png) |
+| **Malzemeler Tablosu:** Sistemde tanımlı tüm malzemeleri tutar. | ![Malzemeler Tablosu](image/malzemeler.png) |
+| **Yemek-Malzeme (Ara Tablo):** Hangi yemekte hangi malzemenin ne kadar olduğunu tutar. | ![Ara Tablo](image/aratablo.png) |
 
 ---
 
@@ -29,18 +29,18 @@ Sistem, verilerin bütünlüğünü korumak adına ilişkisel bir model kullanma
 
 ### 1. Ana Sayfa
 Kayıtlı tüm yemeklerin kart tasarımlarıyla listelendiği, hızlı silme ve detay görme butonlarının bulunduğu yönetim panelidir.
-![Ana Sayfa](images/anasayfa.jpg)
+![Ana Sayfa](image/anasayfa.jpg)
 
 ### 2. Yeni Tarif Ekleme
 Sisteme yeni yemeklerin ve malzemelerin tanımlandığı, modern form yapısına sahip ekleme ekranı.
-![Yeni Tarif Ekle](images/ekleme.png)
+![Yeni Tarif Ekle](image/ekleme.png)
 
 ### 3. Tarif Detay Sayfası
 Seçilen tarifin içeriği ve kullanılan malzemelerin `JOIN` sorgusuyla ilişkili tablodan çekilerek listelendiği ekran.
-![Tarif Detay](images/info.jpg)
+![Tarif Detay](image/info.jpg)
 
 ### 4. Güncelleme Ekranı
 Mevcut tarif bilgilerinin, fotoğraflarının ve malzeme miktarlarının revize edildiği düzenleme alanı.
-![Tarif Güncelle](images/güncelle.png)
+![Tarif Güncelle](image/güncelle.png)
 
 ---

@@ -20,9 +20,9 @@ Sistem, verilerin bütünlüğünü korumak adına ilişkisel bir model kullanma
 
 | Veritabanı Tablosu | Ekran Görüntüsü |
 | :--- | :--- |
-| **Yemekler Tablosu:** Ana tarif bilgilerini (ad, tarif, foto) tutar. | ![Yemekler Tablosu](images/yemekler.png) |
-| **Malzemeler Tablosu:** Sistemde tanımlı tüm malzemeleri tutar. | ![Malzemeler Tablosu](images/malzemeler.png) |
-| **Yemek-Malzeme (Ara Tablo):** Hangi yemekte hangi malzemenin ne kadar olduğunu tutar. | ![Ara Tablo](images/aratablo.png) |
+| **Yemekler Tablosu:** Ana tarif bilgilerini (ad, tarif, foto) tutar. | ![Yemekler Tablosu](image/yemekler.png) |
+| **Malzemeler Tablosu:** Sistemde tanımlı tüm malzemeleri tutar. | ![Malzemeler Tablosu](image/malzemeler.png) |
+| **Yemek-Malzeme (Ara Tablo):** Hangi yemekte hangi malzemenin ne kadar olduğunu tutar. | ![Ara Tablo](image/aratablo.png) |
 
 ---
 
@@ -30,19 +30,19 @@ Sistem, verilerin bütünlüğünü korumak adına ilişkisel bir model kullanma
 
 ### 1. Ana Sayfa
 Kayıtlı tüm yemeklerin PostgreSQL üzerinden çekilerek kart tasarımlarıyla listelendiği ana ekrandır.
-![Ana Sayfa](images/anasayfa.jpg)
+![Ana Sayfa](image/anasayfa.jpg)
 
 ### 2. Yeni Tarif Ekleme
 Sisteme yeni yemeklerin ve malzemelerin tanımlandığı, Java nesneleriyle veritabanına aktarıldığı ekleme ekranı.
-![Yeni Tarif Ekle](images/tarifekleme.png)
+![Yeni Tarif Ekle](image/tarifekleme.png)
 
 ### 3. Tarif Detay Sayfası
 Seçilen tarifin içeriği ve kullanılan malzemelerin `JOIN` sorgusuyla ilişkili tablodan çekilerek listelendiği detay ekranı.
-![Tarif Detay](images/info.jpg)
+![Tarif Detay](image/info.jpg)
 
 ### 4. Güncelleme Ekranı
 Mevcut tarif bilgilerinin ve malzeme miktarlarının revize edildiği, SQL UPDATE komutlarının tetiklendiği düzenleme alanı.
-![Tarif Güncelle](images/güncelle.png)
+![Tarif Güncelle](image/güncelle.png)
 
 ---
 
