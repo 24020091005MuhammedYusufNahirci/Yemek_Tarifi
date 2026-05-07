@@ -15,7 +15,7 @@ Bu repository içerisinde aynı işlevselliğe sahip 3 farklı yazılım mimaris
 | [**yemek_projesi_php**](./yemek_projesi_php) | PHP (Native) | PostgreSQL 
 ---
 
-## 🛠️ Ortak Özellikler & Teknoloji Yığını
+##  Ortak Özellikler & Teknoloji Yığını
 
 Her üç proje de aşağıdaki özellikleri ve teknolojileri ortak olarak kullanmaktadır:
 
