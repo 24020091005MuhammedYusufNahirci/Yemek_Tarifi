@@ -1,6 +1,6 @@
-#  Yemek Tarifi Yönetim Sistemi (PHP & PostgreSQL)
+#  Yemek Tarifi Yönetim Sistemi (PHP & MYSQl)
 
-Bu proje, **Veri Tabanı Yönetim Sistemleri** dersi kapsamında geliştirilmiş; yemek tariflerini, içerdiği malzemeleri ve bu malzemelerin miktarlarını dinamik olarak yönetmeyi sağlayan web tabanlı bir uygulamadır. Proje, **PHP** dili ile geliştirilmiş ve veritabanı yönetim sistemi olarak **PostgreSQL** kullanılmıştır.
+Bu proje, **Veri Tabanı Yönetim Sistemleri** dersi kapsamında geliştirilmiş; yemek tariflerini, içerdiği malzemeleri ve bu malzemelerin miktarlarını dinamik olarak yönetmeyi sağlayan web tabanlı bir uygulamadır. Proje, **PHP** dili ile geliştirilmiş ve veritabanı yönetim sistemi olarak **MySQL** kullanılmıştır.
 
 ---
 
@@ -28,7 +28,7 @@ Sistem, verilerin bütünlüğünü ve performansını optimize etmek amacıyla 
 
 ### 1. Ana Sayfa (Dashboard)
 Kayıtlı tüm tariflerin PostgreSQL'den çekilerek kart yapısıyla sergilendiği, detay görme ve silme aksiyonlarının bulunduğu ekrandır.
-![Ana Sayfa](image/anasayfa.jpg)
+![Ana Sayfa](image/anasayfa.png)
 
 ### 2. Yeni Tarif / Yönetim Paneli
 Yeni yemeklerin sisteme tanımlandığı, veritabanındaki malzemelerin dinamik olarak listelenip seçildiği yönetim sayfasıdır.
@@ -36,7 +36,7 @@ Yeni yemeklerin sisteme tanımlandığı, veritabanındaki malzemelerin dinamik 
 
 ### 3. Tarif Detay Sayfası
 Seçilen tarife ait hazırlanış adımlarının ve `JOIN` sorgusu ile ara tablodan çekilen alışveriş listesinin görüntülendiği alandır.
-![Tarif Detay](image/info.jpg)
+![Tarif Detay](image/info.png)
 
 ### 4. Düzenleme Paneli
 Mevcut tarif bilgilerinin, fotoğraflarının ve seçili malzeme miktarlarının revize edildiği güncelleme ekranıdır.

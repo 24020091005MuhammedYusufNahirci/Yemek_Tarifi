@@ -30,7 +30,7 @@ Sistem, verilerin bütünlüğünü korumak adına ilişkisel bir model kullanma
 
 ### 1. Ana Sayfa
 Kayıtlı tüm yemeklerin PostgreSQL üzerinden çekilerek kart tasarımlarıyla listelendiği ana ekrandır.
-![Ana Sayfa](image/anasayfa.jpg)
+![Ana Sayfa](image/anasayfa.png)
 
 ### 2. Yeni Tarif Ekleme
 Sisteme yeni yemeklerin ve malzemelerin tanımlandığı, Java nesneleriyle veritabanına aktarıldığı ekleme ekranı.
@@ -38,7 +38,7 @@ Sisteme yeni yemeklerin ve malzemelerin tanımlandığı, Java nesneleriyle veri
 
 ### 3. Tarif Detay Sayfası
 Seçilen tarifin içeriği ve kullanılan malzemelerin `JOIN` sorgusuyla ilişkili tablodan çekilerek listelendiği detay ekranı.
-![Tarif Detay](image/info.jpg)
+![Tarif Detay](image/info.png)
 
 ### 4. Güncelleme Ekranı
 Mevcut tarif bilgilerinin ve malzeme miktarlarının revize edildiği, SQL UPDATE komutlarının tetiklendiği düzenleme alanı.

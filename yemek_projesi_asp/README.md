@@ -1,6 +1,6 @@
-#  Yemek Tarifi Yönetim Sistemi (ASP.NET Core & PostgreSQL)
+#  Yemek Tarifi Yönetim Sistemi (ASP.NET Core & MsSQL)
 
-Bu proje, **Veri Tabanı Yönetim Sistemleri** dersi kapsamında geliştirilmiş; yemek tariflerini, malzemelerini ve bu malzemelerin miktarlarını dinamik olarak yönetmeyi sağlayan bir web uygulamasıdır. Proje, **ASP.NET Core** mimarisi kullanılarak geliştirilmiş ve veritabanı tarafında **PostgreSQL** ile desteklenmiştir.
+Bu proje, **Veri Tabanı Yönetim Sistemleri** dersi kapsamında geliştirilmiş; yemek tariflerini, malzemelerini ve bu malzemelerin miktarlarını dinamik olarak yönetmeyi sağlayan bir web uygulamasıdır. Proje, **ASP.NET Core** mimarisi kullanılarak geliştirilmiş ve veritabanı tarafında **MsSQL** ile desteklenmiştir.
 
 ---
 
@@ -29,7 +29,7 @@ Sistem, verilerin bütünlüğünü korumak adına ilişkisel bir model kullanma
 
 ### 1. Ana Sayfa
 Kayıtlı tüm yemeklerin kart tasarımlarıyla listelendiği, hızlı silme ve detay görme butonlarının bulunduğu yönetim panelidir.
-![Ana Sayfa](image/anasayfa.jpg)
+![Ana Sayfa](image/anasayfa.png)
 
 ### 2. Yeni Tarif Ekleme
 Sisteme yeni yemeklerin ve malzemelerin tanımlandığı, modern form yapısına sahip ekleme ekranı.
@@ -37,7 +37,7 @@ Sisteme yeni yemeklerin ve malzemelerin tanımlandığı, modern form yapısına
 
 ### 3. Tarif Detay Sayfası
 Seçilen tarifin içeriği ve kullanılan malzemelerin `JOIN` sorgusuyla ilişkili tablodan çekilerek listelendiği ekran.
-![Tarif Detay](image/info.jpg)
+![Tarif Detay](image/info.png)
 
 ### 4. Güncelleme Ekranı
 Mevcut tarif bilgilerinin, fotoğraflarının ve malzeme miktarlarının revize edildiği düzenleme alanı.
