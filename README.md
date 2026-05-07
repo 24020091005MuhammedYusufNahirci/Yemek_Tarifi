@@ -20,10 +20,8 @@ Bu repository içerisinde aynı işlevselliğe sahip 3 farklı yazılım mimaris
 Her üç proje de aşağıdaki özellikleri ve teknolojileri ortak olarak kullanmaktadır:
 
 * **Veritabanı:** PostgreSQL (İlişkisel model, Many-to-Many yapı).
-* **Arayüz:** Bootstrap 5, HTML5, CSS3, JavaScript.
 * **Fonksiyonellik:** * Yemek tariflerinin CRUD (Ekle, Oku, Güncelle, Sil) işlemleri.
     * Dinamik malzeme seçimi ve miktar yönetimi.
-    * `JOIN` sorguları ile ilişkili verilerin detaylı gösterimi.
 
 ---
 
