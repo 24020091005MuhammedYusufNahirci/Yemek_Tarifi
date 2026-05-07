@@ -35,7 +35,3 @@ Tüm uygulamalar tek bir veritabanı yapısı üzerinden konuşmaktadır. SQL ko
 
 ---
 
-
-> **Geliştirici:** Yusuf  
-> **Ders:** Veri Tabanı Yönetim Sistemleri  
-> **Üniversite:** İstiklal Üniversitesi
